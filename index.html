@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Prescription</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="rx-header">
+                <img src="CRIPTION.png" alt="Doctor">
+                <div class="rx-bar">
+                    <div class="rx-date">
+                        <p>Date: 18 Jun 2024</p>
+                    </div>
+                    <div class="rectangle"></div>
+                </div> 
+            </div>
+        </header>
+        <section class="prescription">
+            <div class="header">
+                <div class="header-profile">
+                    <img src="doctor.jpg" alt="Dr. Darlene Robertson">
+                    <div>
+                        <h1>Dr. Darlene Robertson</h1>
+                        <p>Nutritionist</p>
+                    </div>
+                </div>
+                <div class="ellipsis">&#x22EE;</div>
+            </div>
+            <div class="line"></div>
+            <div class="prescription-card">
+                <table >
+                    <thead>
+                        <tr>
+                            <th>Rx</th>
+                            <th>Duration</th>
+                            <th>Rx</th>
+                            <th>Duration</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Lorem ipsum dolor sit amet consectetur.</td>
+                            <td>100 g</td>
+                            <td>Lorem ipsum dolor sit amet consectetur.</td>
+                            <td>100 g</td>
+                        </tr>
+                        <tr>
+                            <td>Lorem ipsum dolor sit amet consectetur.</td>
+                            <td>100 g</td>
+                            <td>Lorem ipsum dolor sit amet consectetur.</td>
+                            <td>100 g</td>
+                        </tr>
+                        <tr>
+                            <td>Lorem ipsum dolor sit amet consectetur.</td>
+                            <td>100 g</td>
+                            <td>Lorem ipsum dolor sit amet consectetur.</td>
+                            <td>100 g</td>
+                        </tr>
+                        <tr>
+                            <td>Lorem ipsum dolor sit amet consectetur.</td>
+                            <td>100 g</td>
+                            <td>Lorem ipsum dolor sit amet consectetur.</td>
+                            <td>100 g</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            
+            <div class="advice">
+                <h3>Advice</h3>
+                <p>Lorem ipsum dolor sit amet consectetur. Volutpat facilisi porta phasellus tempor. In fusce dolor mi id adipiscing. Et lacus lorem nunc amet. Non dolor purus egestas massa tincidunt donec lacinia. Volutpat odio ac maecenas amet. Nullam volutpat nulla lectus et. Sed eu fermentum urna enim augue.</p>
+            </div>
+        </section>
+        <!-- <section class="grocery-list">
+            <div class="grocery-header">
+                <h3>Healthy Grocery List</h3>
+                <select id="duration-select">
+                    <option value="weekly">Weekly</option>
+                    <option value="monthly">Monthly</option>
+                </select>
+            </div>
+            <ul id="grocery-list">
+                <li>Fruits: 1000 Grams</li>
+                <li>Vegetables: 500 Grams</li>
+                <li>Millets: As Needed</li>
+                <li>Coconut Water: As Needed</li>
+                <li>Sprouts / Green Leaves: 100 Grams</li>
+                <li>Dry Fruits: 100 Grams</li>
+                <li>Hunza Tea: As Needed</li>
+            </ul>
+        </section> -->
+        <section class="grocery-list">
+            <div class="grocery-header">
+                <h3>Healthy Grocery List</h3>
+                <select id="duration-select">
+                    <option value="weekly">Weekly</option>
+                    <option value="monthly">Monthly</option>
+                </select>
+            </div>
+            <div class="list">
+                <div class="grocery">
+                    <ul id="grocery-list">
+                        <li class="grocery-item">
+                            <div class="img"><img src="fruit.png" alt=""> Fruits:</div>
+                            <div>1000 Grams</div>
+            
+                        </li>
+                        <li class="grocery-item">
+                            <div class="img"><img src="vegetables.png" alt=""> Vegetables:</div>
+                            <div>500 Grams</div>
+                        </li>
+                        <li class="grocery-item">
+                            <div class="img"><img src="millets.png" alt=""> Millets:</div>
+                            <div>As Needed</div>
+                        </li>
+                        <li class="grocery-item">
+                            <div class="img"><img src="coconut.png" alt=""> Coconut Water:</div>
+                            <div>As Needed</div>
+                        </li>
+                        <li class="grocery-item">
+                            <div class="img"><img src="sprouts.png" alt=""> Sprouts / Green Leaves:</div>
+                            <div>100 Grams</div>
+                        </li>
+                        <li class="grocery-item">
+                            <div class="img"><img src="dryfruits.png" alt=""> Dry Fruits:</div>
+                            <div>100 Grams</div>
+                        </li>
+                        <li class="grocery-item">
+                            <div class="img"><img src="tea.png" alt=""> Hunza Tea:</div>
+                            <div>As Needed</div>
+                        </li>
+                        
+                    </ul>
+                </div>
+                
+                <div class="qr-image">
+                    <img src="scanner.png" alt="">
+                </div>
+            </div>
+            <div>
+                <button id="buy-now-btn">BUY NOW</button>
+            </div>
+            
+        </section>
+    
+        <section class="information">
+            <h3>INSTRUCTION</h3>
+            <div class="card">
+                <div class="card-instruction">
+                    <h4>Points to note for best benifit of FoodCription : </h4>
+                    <ol>
+                        <li>The Calculated Weight of the food is without Peel.</li>
+                        <li>Chew Properly (32 times - approximately) for best Digestion.</li>
+                        <li>Wash Food and Hands properly before consuming.</li>
+                        <li>Boil / Steam vegetables, if needed.</li>
+                        <li>Include more colorful foods. More colors equals more nutrients.</li>
+                        <li>Eat Mindfully. Do not engage in other activities (TV, Talks etc) while eating.</li>
+                        <li>Stay Hydrated throughout the Day.</li>
+                    </ol>
+                </div>
+                
+                <div class="important-note">
+                    <p><strong>IMPORTANT NOTE :</strong></p>
+                    <p>
+                        The FoodCription Protocol is inspired and curated from 'Verified Health Sources'. This is not a replacement for Medical Advice and does not work in case of emergency.</p>
+                    <p>
+                        Consult, Discuss the protocol with your Healthcare Professional. FoodCription recommends Lifestyle advice Protocol backed by research to help address root cause of diseases.</p>
+                    <p>
+                        This advice is not a substitute for professional medical advice, diagnosis, or treatment. If you are experiencing a life-threatening emergency that requires immediate attention please call 102 or the number for your local emergency service.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <!-- <section class="instruction">
+            <h3>Instruction</h3>
+            <ol>
+                <li>The Calculated Weight of the food is without Peel.</li>
+                <li>Chew Properly (32 times - approximately) for best Digestion.</li>
+                <li>Wash Food and Hands properly before consuming.</li>
+                <li>Boil / Steam vegetables, if needed.</li>
+                <li>Include more colorful foods. More colors equals more nutrients.</li>
+                <li>Eat Mindfully. Do not engage in other activities (TV, Talks etc) while eating.</li>
+                <li>Stay Hydrated throughout the Day.</li>
+            </ol>
+            <button id="more-info-btn">More Info</button>
+            <div id="more-info-modal" class="modal">
+                <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <p>IMPORTANT NOTE: The FoodCription Protocol is inspired and curated from ‘Verified Health Sources’. This is not a replacement for Medical Advice and does not work in case of emergency. Consult, Discuss the protocol with your Healthcare Professional. FoodCription recommends Lifestyle advice Protocol backed by research to help address root cause of diseases. This advice is not a substitute for professional medical advice, diagnosis, or treatment. If you are experiencing a life-threatening emergency that requires immediate attention please call 102 or the number for your local emergency service.</p>
+                </div>
+            </div>
+        </section> -->
+        
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
